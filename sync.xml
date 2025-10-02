@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Define the GitHub remote base URL -->
+  <remote name="github"
+          fetch="https://github.com/"
+          review="https://github.com/" />
+
+  <!-- Default settings for all projects -->
+  <default revision="main"
+           remote="github"
+           sync-j="4" />
+
+  <!-- List your projects below -->
+
+  <project name="kartik-commits/device_xiaomi_redwood"
+           path="device/xiaomi/redwood" />
+
+  <project name="kartik-commits/device_xiaomi_sm7325-common"
+           path="device/xiaomi/sm7325-common" />
+
+  <project name="kartik-commits/vendor_xiaomi_redwood"
+           path="vendor/xiaomi/redwood" />
+
+  <project name="kartik-commits/vendor_xiaomi_sm7325-common"
+           path="vendor/xiaomi/sm7325-common" />
+</manifest>
